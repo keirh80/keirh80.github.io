@@ -1,0 +1,234 @@
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+body, html {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.topnav a {
+  float: right;
+  color: #14BC79;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "roboto";
+}
+
+.nohover:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+  padding: 15px 30px;
+}
+.topnav img {
+  display: block;
+  margin: 0;
+}
+
+.topnav #icon {
+  float: left;
+}
+
+.icon {
+  border-radius: 20%;
+  float: left;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.navbar {
+  margin: 25px 20px;
+  overflow: hidden;
+}
+
+.slideshow {
+  text-align: center;
+}
+
+.slide img {
+  max-width: 80%;
+  border-radius:  8px;
+
+}
+
+.dot {
+  height: 2px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+@keyframes fading {
+  0%{
+    opacity: .8;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: .8;
+  }
+}
+
+.fade {
+  animation: fading 2s infinite;
+}
+
+main {
+  overflow: hidden;
+  position: relative;
+  top: 140px;
+}
+
+main p{
+  color: #DCEAD2;
+  font-size: 30px;
+  font-family: "roboto";
+}
+
+
+.presentext {
+  display: block;
+  float: left;
+  max-width: 40%;
+}
+
+.presentext p{
+  font-size: 160%;
+}
+
+.presentation {
+  vertical-align: center;
+  overflow: hidden;
+  padding-left: 15%;
+  padding-top: 30px;
+  margin-right: 0px;
+}
+
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.aboutext {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutext h2 {
+  color: #14BC79;
+  margin-bottom: 0px;
+}
+
+.aboutext p {
+  text-align: center;
+  font-size: 120%;
+}
+
+.noticia:hover {
+  box-shadow: 0px 0px 3px 3px #14BC79;
+}
+
+.display {
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;}
+
+.artwork{
+  float: left;
+  border-radius: 40px;
+  width: 45%;
+  height: auto;
+  padding: 2.5%;
+}
+
+.vertical-center {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.title h1 {
+  color: #14BC79;;
+  font-family: "roboto";
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+.line{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-color: white;
+  height: 2px;
+  border-radius: 100%;
+}
+
+.nav-down {
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.shade:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.glow:hover {
+  background-color: rgba(72, 209, 63, 0.3);
+}
+
+.linkshade a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.linkglow a:hover {
+  background-color: rgba(72, 209, 63, 0.3);
+  border-radius: 5%;
+}
+.botnav {
+  position: relative;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-right: 0px;
+  overflow: hidden;
+}
+.part1{
+  padding-left: 12%;
+  padding-bottom: 10px;
+  color: #14BC79;
+  float: left;
+}
+.part2{
+  padding-left: 12%;
+  padding-bottom: 10px;
+  color: #14BC79;
+  float: left;
+}
+body {
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
